@@ -2,24 +2,34 @@
 
 ## 📌 Project Description
 
-This project demonstrates a simple containerized web application using Docker and Nginx reverse proxy.
+This project demonstrates a simple containerized web application using Docker and an Nginx reverse proxy.
 
-The architecture consists of:
+The system consists of:
+
 - Backend service (Python HTTP server)
-- Nginx as reverse proxy
+- Nginx reverse proxy
 - Docker Compose for orchestration
 
 ---
 
 ## 🏗 Architecture
 
-Client → Nginx → Backend (Python)
+Client → Nginx → Backend (Python HTTP Server)
 
 ---
 
-## 🚀 How to Run the Project
+## 📦 Requirements
 
-### 1. Build and start containers
+Before running the project, make sure you have installed:
+
+- Docker
+- Docker Compose
+- Git
+
+---
+
+## 📥 Clone the Repository
 
 ```bash
-docker compose up --build
+git clone https://github.com/beriidzze/devops-test.git
+cd devops-test
